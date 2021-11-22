@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsCampHomeworks-Kodlama.io", "CsCampHomeworks-Kodlama.io\CsCampHomeworks-Kodlama.io.csproj", "{06773E87-8290-4B41-B5ED-0136524CD899}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06773E87-8290-4B41-B5ED-0136524CD899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06773E87-8290-4B41-B5ED-0136524CD899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06773E87-8290-4B41-B5ED-0136524CD899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06773E87-8290-4B41-B5ED-0136524CD899}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBB9DA63-2568-4673-B47D-2A711CF5411A}
+	EndGlobalSection
+EndGlobal
