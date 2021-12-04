@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CsCampHomeworks-Kodlama.io", "CsCampHomeworks-Kodlama.io\CsCampHomeworks-Kodlama.io.csproj", "{06773E87-8290-4B41-B5ED-0136524CD899}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS.Odev5.5", "CS.Odev5.5\CS.Odev5.5.csproj", "{38FEBFC7-0642-4A44-9F6A-F15B2CD1CCDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CS.Odev5.5", "CS.Odev5.5\CS.Odev5.5.csproj", "{38FEBFC7-0642-4A44-9F6A-F15B2CD1CCDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cs.Odev.5.5.Katmanlı", "Cs.Odev.5.5.Katmanlı\Cs.Odev.5.5.Katmanlı.csproj", "{BB346657-368B-4151-89C5-518482B102A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{38FEBFC7-0642-4A44-9F6A-F15B2CD1CCDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38FEBFC7-0642-4A44-9F6A-F15B2CD1CCDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38FEBFC7-0642-4A44-9F6A-F15B2CD1CCDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB346657-368B-4151-89C5-518482B102A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB346657-368B-4151-89C5-518482B102A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB346657-368B-4151-89C5-518482B102A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB346657-368B-4151-89C5-518482B102A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
