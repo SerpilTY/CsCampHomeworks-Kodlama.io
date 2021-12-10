@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cs.Odev._5._5.Katmanlı.Concretes;
+using System;
 
 namespace Cs.Odev._5._5.Katmanlı
 {
@@ -7,34 +8,28 @@ namespace Cs.Odev._5._5.Katmanlı
         static void Main(string[] args)
             
         {
-            Gamer Ahmet = new Gamer()
-            {
-                DateOfBirth = new DateTime(1979, 07, 15),
-                FirstName = "Ahmet",
-                LastName = "TY",
-                IdentityNumber = 12345
 
+            Gamer Serpil = new Gamer()
+            {
+                DateOfBirth = new DateTime(1981, 10, 01), FirstName = "SERPİL", LastName = "TY", IdentityNumber = 12345
             };
 
-            GamerManager gamerManager = new GamerManager(new UserValidationManager());
-            gamerManager.Add(new Gamer()
+            Gamer Ahmet = new Gamer()
             {
-                DateOfBirth = new DateTime(1981, 10, 01),
-                FirstName = "SERPİL",
-                LastName = "TY",
-                IdentityNumber = 12345
+                DateOfBirth = new DateTime(1979, 07, 15), FirstName = "AHMET", LastName = "TY", IdentityNumber = 12345
+            };
+            
+            GamerManager gamerManager = new GamerManager(new UserValidationManager());
 
-            });
-            CampaignManager campaign = new CampaignManager();
+            gamerManager.Add(Serpil);
+            gamerManager.Add(Ahmet);
+                     
             OrderManager orderManager = new OrderManager();
-            orderManager.Order(Ahmet);
 
-
-            orderManager.Order(Ahmet, campaign);
-            campaign.NewCampaign();
-            campaign.UpdateCampaign();
-            campaign.RemoveCampaign();
-
+            orderManager.Order(Ahmet, new NewCampaignManager());
+            orderManager.Order(Serpil, new UpdateCampaignManager());
+            orderManager.Order(Ahmet, new RemoveCampaign());
+         
         }
     }
 }

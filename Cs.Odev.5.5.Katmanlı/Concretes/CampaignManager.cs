@@ -2,25 +2,27 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Cs.Odev._5._5.Katmanlı
+namespace Cs.Odev._5._5.Katmanlı.Concretes
 {
-    class CampaignManager : ICampaignService
+    class CampaignManager 
 
     {
+
+        /*
         public void NewCampaign()
-
-        { Console.WriteLine("Game Ordered Succesfully!"); }
-
-        
+        {
+            Console.WriteLine("NewCampaign Defined Succesfully!");
+        }
 
         public void RemoveCampaign()
-
-        { Console.WriteLine("Campaign Removed Successfully!"); }
-              
+        {
+            Console.WriteLine("Campaign Removed Successfully!");
+        }
 
         public void UpdateCampaign()
         {
             Console.WriteLine("Campaign Updated Successfully!");
         }
+        */
     }
 }
