@@ -28,7 +28,7 @@ namespace Cs.Odev._5._5.Katmanlı
 
             orderManager.Order(Ahmet, new NewCampaignManager());
             orderManager.Order(Serpil, new UpdateCampaignManager());
-            orderManager.Order(Ahmet, new RemoveCampaign());
+            orderManager.Order(Ahmet, new RemoveCampaignManager());
          
         }
     }

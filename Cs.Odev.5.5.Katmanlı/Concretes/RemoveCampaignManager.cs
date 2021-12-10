@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Cs.Odev._5._5.Katmanlı.Concretes
 {
-    class RemoveCampaign:ICampaignService
+    class RemoveCampaignManager:ICampaignService
     {
         public void RunCampaign()
         {

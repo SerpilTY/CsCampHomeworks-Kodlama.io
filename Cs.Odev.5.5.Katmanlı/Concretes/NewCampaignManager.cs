@@ -12,23 +12,7 @@ namespace Cs.Odev._5._5.Katmanlı
             {
                 Console.WriteLine("NewCampaign Defined Succesfully!");
             }
-            /*
-            public void NewCampaign()
-
-            { Console.WriteLine("Game Ordered Succesfully!"); }
-
-
-
-            public void RemoveCampaign()
-
-            { Console.WriteLine("Campaign Removed Successfully!"); }
-
-
-            public void UpdateCampaign()
-            {
-                Console.WriteLine("Campaign Updated Successfully!");
-            }
-            */
+          
         }
     }
 }
